@@ -8,7 +8,7 @@ int totalSum(vector<int> V)
 	int n=V.size();
 	for(int i=V.size()-1;i>=0;i--)
 	{
-		sum+=V[i]*pow(10,n-i);
+		sum+=V[i]*pow(10,n-i-1);
 	}
 	return sum;
 }
@@ -22,7 +22,5 @@ int main()
 	int ans=totalSum(V1) + totalSum(V2) ;
 	
 	cout<<ans;
-	
-
 	
 }
