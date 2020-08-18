@@ -1,4 +1,4 @@
 # CP2_CIPHERSCHOOLS
 Coding problems of Data Structure and Algorithms
 
-Number before problem indicating the proble number in *LEETCODE*
+Number before file indicating the problem number in *LEETCODE*
